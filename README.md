@@ -1,6 +1,5 @@
-README
-Overview
-This study utilizes the Fashion MNIST dataset, accessible from Fashion MNIST dataset. This dataset comprises 10 distinct fashion labels: T-shirt/top, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, and Ankle boots. The project includes two major assignments:
+Overview:
+This study utilizes the Fashion MNIST dataset, accessible from the Fashion MNIST dataset. This dataset comprises 10 distinct fashion labels: T-shirts/tops, Trousers, Pullovers, Dresses, Coats, Sandals, Shirts, Sneakers, Bags, and Ankle boots. The project includes two major assignments:
 1.	Convolutional Neural Network (CNN):
 Develop a CNN with six layers using Keras in both Python and R to classify the Fashion MNIST dataset.
 2.	Prediction:
