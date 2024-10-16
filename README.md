@@ -38,11 +38,11 @@ The sample sizes for the project were as follows:
 •	Validation dataset: 8,000 images
 •	Test dataset: 2,000 images
 
-Results (Model with Early Stopping Callbacks)
+Results (Model with Early Stopping Callbacks):
 The training accuracy over 12 epochs ranged from 78% to 97%. The cross-validation accuracy ranged from 88% to 93%, while the test accuracy varied between 78% and 93%. The 5% difference between training and cross-validation accuracy indicates potential overfitting. The divergence of the loss curves was observed between 2 to 4 epochs for both training and validation loss, as well as for training and validation accuracy.
-The model was able to predict 78% of the images in the test dataset, which may be attributed to overfitting. If the training process had continued for the full 25 epochs without early stopping, the prediction accuracy could have improved. Future work may involve testing the model with techniques designed to address overfitting.
+The model was able to predict 78% of the images in the test dataset, which may be attributed to overfitting. The prediction accuracy could have improved if the training process had continued for the full 25 epochs without early stopping. Future work may involve testing the model with techniques designed to address overfitting.
 
-Results (Model with all the 25 epochs)
+Results (Model with all the 25 epochs):
 The training accuracy over 25 epochs ranged from 78% to 99%. The cross-validation accuracy ranged from 88% to 93%, while the test accuracy varied between 92% during training and 93% on test predictions. The 7% difference between training and cross-validation accuracy suggests potential overfitting. However, the model's accuracy improved from 78% at 12 epochs to 93% by 25 epochs. Thus, the model was able to correctly predict 93% of the images. Future work may involve testing the model with techniques aimed at addressing overfitting.
 
 
