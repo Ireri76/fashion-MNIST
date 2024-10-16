@@ -2,9 +2,9 @@ README
 Overview
 This study utilizes the Fashion MNIST dataset, accessible from Fashion MNIST dataset. This dataset comprises 10 distinct fashion labels: T-shirt/top, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, and Ankle boots. The project includes two major assignments:
 1.	Convolutional Neural Network (CNN):
-o	Develop a CNN with six layers using Keras in both Python and R to classify the Fashion MNIST dataset.
+Develop a CNN with six layers using Keras in both Python and R to classify the Fashion MNIST dataset.
 2.	Prediction:
-o	Make predictions for at least two images from the dataset.
+Make predictions for at least two images from the dataset.
 
 
 CNN Implementation
@@ -13,16 +13,20 @@ The CNN involved several key procedures:
 2.	Building the model using Keras
 3.	Training the model
 4.	Saving the model to Google Drive
-5.	Performing predictions and evaluating performance on the test dataset
+5.	Performing predictions and evaluating performance on the test dataset.
+
+   
 The code for this project is adapted from the blog post, Classifying Fashion with a Keras CNN (Achieving 94% Accuracy) — Part 1 by Manish Bhobé on Medium. Modifications and improvements were made for this project, including:
-•	Creating TensorFlow datasets for training, validation, and testing while incorporating batch size.
-•	Adjusting the number of rows and columns for displaying sample predictions.
-•	Adding a dropout function to reduce overfitting.
-•	Enabling mixed precision and early stopping callbacks to automatically terminate training when performance plateaus.
-•	Mounting Google Drive for model saving.
-•	Including color coding to distinguish between correct and incorrect predictions.
-•	Printing the number of batches processed.
-•	Calling the prediction function from Google Drive.
+
+
+1.	Creating TensorFlow datasets for training, validation, and testing while incorporating batch size.
+2.  Adjusting the number of rows and columns for displaying sample predictions.
+3.	Adding a dropout function to reduce overfitting.
+4.	Enabling mixed precision and early stopping callbacks to automatically terminate training when performance plateaus.
+5.	Mounting Google Drive for model saving.
+6.	Including color coding to distinguish between correct and incorrect predictions.
+7.	Printing the number of batches processed.
+8.	Calling the prediction function from Google Drive.
 
 
 Environment
